@@ -123,3 +123,21 @@ a:active {
   font-style: italic;
 }
 /* LVHA */
+
+/* CSS Theory #1: Conflicts Between Selectors (priority order = id->last class->first class->elements */
+
+#copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green !important;
+}
