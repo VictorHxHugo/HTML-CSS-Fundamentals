@@ -1,11 +1,11 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
+* {
+  /* order-top: 10px solid #1098ad; */
+}
+
+body {
   font-family: sans-serif;
   color: #444;
+  border-top: 10px solid #1098ad;
 }
 
 h1,
@@ -94,7 +94,7 @@ li:last-child {
 }
 
 li:nth-child(3) {
-  /* color: crimson; */
+  color: crimson;
 }
 
 /* Misconception: this won't work! */
@@ -122,10 +122,12 @@ a:active {
   background-color: black;
   font-style: italic;
 }
+
 /* LVHA */
 
 /* CSS Theory #1: Conflicts Between Selectors (priority order = id->last class->first class->elements */
 
+/*
 #copyright {
   color: red;
 }
@@ -140,4 +142,14 @@ a:active {
 
 footer p {
   color: green !important;
+}
+*/
+
+/*
+nav a:link, nav p {
+  font-size: 18px;
+} */
+
+nav {
+  font-size: 18px;
 }
