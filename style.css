@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* PAGE SECTION */
 body {
   font-family: sans-serif;
   color: #444;
@@ -24,7 +24,7 @@ body {
   padding-right: 40px; */
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 88px;
+  /* height: 88px; */
 }
 
 nav {
@@ -48,6 +48,8 @@ aside {
   padding: 50px 0;
   width: 500px;
 }
+
+/* SMALLER ELEMENTS */
 
 h1,
 h2,
@@ -83,6 +85,7 @@ p {
   font-size: 22px;
   line-height: 1.5;
   margin-bottom: 15px;
+  /* display: inline; */
 }
 
 ul,
@@ -94,6 +97,7 @@ ol {
 li {
   font-size: 20px;
   margin-bottom: 20px;
+  /* display: inline; */
 }
 
 li:last-child {
@@ -172,6 +176,20 @@ a:active {
 .post-img {
   width: 100%;
   height: auto;
+}
+
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+  display: block; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a link: :last-child {
+  margin-right: 0px;
 }
 
 /* LVHA */
